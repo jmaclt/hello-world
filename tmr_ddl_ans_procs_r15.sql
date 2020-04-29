@@ -12,27 +12,6 @@
 -- ### This interface loads the following data items from a daily
 -- ### text file provided by Tamro AB (Sweden).
 -- ### 
--- ### HISTORY:
--- ### 5.1 - 2003.11.18 - lourenco_joao_miguel@lilly.com 
--- ###     Problem with unique const. violations on Street Sales.
--- ### 6.0 - 2003.12.09 - lourenco_joao_miguel@lilly.com 
--- ###     Correction of the problems found during INV-DM validation;
--- ###     Adaptation to AnSWERS V8.8.1 (Siebel master of ORGs)
--- ### 6.1 - 2004.01.08 - lourenco_joao_miguel@lilly.com 
--- ###     Format of Brick_Nbr changed in Edm_Gpltcl_Area
--- ### 6.2 - 2004.01.19 - lourenco_joao_miguel@lilly.com 
--- ###     Correction of Consignment Sales Date
--- ### 6.3 - 2004.04.28 - lourenco_joao_miguel@lilly.com 
--- ###     Correction of Consignment Stock Level;
--- ###     New parameter for procedure UNLOAD  
--- ### 14  - 2004.06.07 - lourenco_joao_miguel@lilly.com 
--- ###     Versioning changed; CIF prices loaded from Tamro instead of SIRS file
--- ### 15  - 2004.09.10 - lourenco_joao_miguel@lilly.com 
--- ###     Unload() now deletes manual Customer-XRF entries;
--- ###     Records without values for SUBGEOREG_1 or CURRENCY are not rejected anymore 
--- ###  
--- ################################################################
-
 CREATE OR REPLACE PACKAGE Pck_Tamro_Interface AS
 
 /*
