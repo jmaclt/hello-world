@@ -12,7 +12,7 @@
 -- ### This interface loads the following data items from a daily
 -- ### text file provided by Tamro AB (Sweden).
 -- ### 
-CREATE OR REPLACE PACKAGE Pck_Tamro_Interface AS
+CREATE OR REPLACE PACKAGE Pck_Tamro_InterfaceXPTO AS
 
 /*
 ==================================================================
