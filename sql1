@@ -1,2 +1,2 @@
-SELECT col1 from table1 WHERE col2 is null; 
+SELECT col1a from table1 WHERE col2 is null; 
 /
